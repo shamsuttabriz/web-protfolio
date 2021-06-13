@@ -68,6 +68,7 @@ section {
     box-shadow: 10px 10px 40px rgb(161, 157, 157);
     height: 380px;
     border-radius: 5px;
+    background-color: white;
 }
 
 #full-stack {
