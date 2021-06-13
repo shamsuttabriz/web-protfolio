@@ -15,7 +15,7 @@ p {
     font-weight: 400;
 }
 
-.name-highlight {
+.orange-highlight {
     color: orange;
 }
 
@@ -55,4 +55,37 @@ section {
     background-image: url('img/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    margin-bottom: 80px;
+    background-image: url('img/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experience .left-part {
+    box-shadow: 10px 10px 40px rgb(161, 157, 157);
+    height: 380px;
+    border-radius: 5px;
+}
+
+#full-stack {
+    border-left: 5px solid red;
+    border-image: linear-gradient(360deg, rgb(253, 250, 74), rgb(240, 59, 28));
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 5px solid red;
+    border-image: linear-gradient(180deg, rgb(47, 18, 211), rgb(10, 215, 251));
+    border-image-slice: 1;
+}
+
+footer p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
 }
